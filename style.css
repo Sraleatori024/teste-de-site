@@ -1,0 +1,112 @@
+@charset "UTF8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color:#5DADE2;
+    
+}
+header{
+    background-image: linear-gradient(to right,#79c0f0,#0d8add);
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    border-radius: 12px;
+    padding: 13px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.322);
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+}
+
+nav>a{
+    color: white;
+    padding: 30px;
+    
+}
+nav{
+    text-align: center;
+    padding: 8px;
+}
+nav >a:hover{
+ color:#190be6 ;
+ 
+    }
+a{
+    text-decoration: none;
+    
+}
+main{
+    background-color: #F9F9F9;
+    max-width: 800px;
+    min-width: 320px;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding-left: 1.em;
+    
+}
+main>h1{
+    text-align: center;
+    padding: 10px;}
+#vem{
+ background-color: #44a8eb;
+ border-radius: 5px;
+ box-shadow: 1px 1px rgba(0, 0, 0, 0.486);
+ 
+}
+
+h2{
+    font-family: 'noto serif',serif;
+    text-align: center;
+    padding: 10px;
+}
+article{
+  padding: 8px;
+  padding-left: 1.em;
+}
+h3{
+    font-family: 'noto serif',serif;
+    text-align: center;
+}
+ul>h3{
+    padding: 10px;
+}
+ul{
+    padding: 8px;
+}
+ul>li{
+    list-style-position: inside;
+    position: relative;
+   
+}
+ul>li>a::after{
+    content: "✅";
+    position: absolute;
+   
+   
+    
+}
+p{
+    text-align: justify;
+    padding: 6px;
+}
+footer{
+    background-color: #3e41ee;
+    text-align: center;
+    color: white; 
+    padding: 3px;
+    border-radius: 5%;
+  
+}
+img{
+    width: 500px;
+    height: 250px;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 55px;
+}
